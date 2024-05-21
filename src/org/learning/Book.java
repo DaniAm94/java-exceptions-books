@@ -57,4 +57,14 @@ public class Book {
         }
         this.editor = editor;
     }
+
+    @Override
+    public String toString() {
+        return "Book{" +
+                "title='" + title + '\'' +
+                ", author='" + author + '\'' +
+                ", pages=" + pages +
+                ", editor='" + editor + '\'' +
+                '}';
+    }
 }
